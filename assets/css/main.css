@@ -13,10 +13,19 @@
     text-transform: capitalize;
     transition: all .2s linear;
 }
-
-*::selection{
-    background:var(--yellow);
-    color:#333;
+#background-small {
+    transform: scale(1.05);
+    background-image: url("https://raw.githubusercontent.com/Itz-Ayanokoji/files/main/walls/1506282.png");
+    background-repeat:repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: -1;
 }
 
 html{
